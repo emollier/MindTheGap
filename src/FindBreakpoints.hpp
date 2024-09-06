@@ -783,7 +783,7 @@ typename FindBreakpoints<span>::KmerCanonical& FindBreakpoints<span>::kmer_end()
 template<size_t span>
 uint64_t FindBreakpoints<span>::solid_stretch_size()
 {
-    return this->m_solid_stretch_size();
+    return this->m_solid_stretch_size;
 }
 
 template<size_t span>
